@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.023,
+  "time": 0.022,
   "errors": [],
   "tasks": [
     {
@@ -52,13 +52,13 @@
         "scheme": "file",
         "title": "Pacientes com Plano de Cuidados Multiprofissional",
         "stats": {
-          "hash": "920b4134eb3d25d4ac82d9ab651e643c",
-          "bytes": 10941,
+          "hash": "06ad0b193735fc84bbd06bb310cf115c",
+          "bytes": 5974,
           "fields": 6,
-          "rows": 441
+          "rows": 130
         }
       },
-      "time": 0.016,
+      "time": 0.013,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -82,31 +82,25 @@
       "partial": false,
       "errors": [
         {
-          "label": "tx_paciente_pcm",
-          "fieldName": "tx_pacientes_pcm",
-          "fieldNumber": 6,
-          "fieldPosition": 6,
-          "labels": [
-            "unidade",
-            "ano",
-            "mes",
-            "pacientes_pcm",
-            "internacoes",
-            "tx_paciente_pcm"
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
           ],
-          "rowPositions": [
-            1
-          ],
-          "code": "incorrect-label",
-          "name": "Incorrect Label",
+          "rowNumber": 129,
+          "rowPosition": 130,
+          "code": "blank-row",
+          "name": "Blank Row",
           "tags": [
             "#table",
-            "#header",
-            "#label"
+            "#row"
           ],
           "note": "",
-          "message": "Label \"tx_paciente_pcm\" in field tx_pacientes_pcm at position \"6\" does not match the field name in the schema",
-          "description": "One of the data source header does not match the field name defined in the schema."
+          "message": "Row at position \"130\" is completely blank",
+          "description": "This row is empty. A row should contain at least one value."
         }
       ],
       "stats": {
