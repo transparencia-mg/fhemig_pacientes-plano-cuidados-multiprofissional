@@ -52,10 +52,10 @@
         "scheme": "file",
         "title": "Pacientes com Plano de Cuidados Multiprofissional",
         "stats": {
-          "hash": "54c81406ebe35111ac02602be3a99d7b",
-          "bytes": 4783,
+          "hash": "10dc53ee7d86b17fa9ff2cb13c9938aa",
+          "bytes": 5552,
           "fields": 6,
-          "rows": 131
+          "rows": 154
         }
       },
       "time": 0.012,
