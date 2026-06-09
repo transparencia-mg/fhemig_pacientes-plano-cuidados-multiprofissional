@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.02,
+  "time": 0.032,
   "errors": [],
   "tasks": [
     {
@@ -52,13 +52,13 @@
         "scheme": "file",
         "title": "Pacientes com Plano de Cuidados Multiprofissional",
         "stats": {
-          "hash": "10dc53ee7d86b17fa9ff2cb13c9938aa",
-          "bytes": 5552,
+          "hash": "05c3582d42193985ccd2d91a6d2c3714",
+          "bytes": 5837,
           "fields": 6,
-          "rows": 154
+          "rows": 162
         }
       },
-      "time": 0.012,
+      "time": 0.022,
       "scope": [
         "hash-count-error",
         "byte-count-error",
