@@ -22,6 +22,9 @@ resources:
         - name: mes
           type: string
           description: "Mês de referência."
+         - name: setor_centro_custo
+          type: integer
+          description: "Setor hospitalar (Tasy) ou Centro de Custo (SIGH)."
         - name: pacientes_pcm
           type: string
           description: "Total de pacientes internados que possuem um plano de cuidados elaborado e registrado por uma equipe multiprofissional (médico, enfermagem, fisioterapia, nutrição, serviço social, entre outros)."
